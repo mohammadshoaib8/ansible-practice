@@ -1,0 +1,24 @@
+---
+- name: installing a web server apache2 and also copy a custom web page file that is index.html.
+  hosts: devwebservers
+  become: true
+
+  tasks:
+    - name: install web server
+      apt:
+        name: apache2
+        state: present
+
+    - name: start a service
+      service:
+        name: apache2
+        state: restarted
+        enabled: yes
+      notify:
+        - copy the custom index.html file to server
+
+  handlers:
+    - name: copy the custom index.html file to server
+      copy:
+        src: index.html
+        dest: /var/www/html
