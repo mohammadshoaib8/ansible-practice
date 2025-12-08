@@ -126,6 +126,91 @@ This project helps build confidence in:
 * Real-world DevOps workflow
 
 ---
+
+## 🧪 Additional Lab — Ansible Roles Based Web Server Deployment
+
+This repository also includes an **Ansible Roles–based implementation** of a web server deployment.  
+This lab demonstrates how to organize Ansible code using **roles**, which is the **industry-recommended best practice** for real-world automation projects.
+
+---
+
+## 📁 Roles Lab Folder Structure
+
+playbook/
+├── master.yml
+└── roles/
+└── webserver/
+├── tasks/
+│ └── main.yml
+├── handlers/
+│ └── main.yml
+├── files/
+│ └── index.html
+└── vars/
+└── main.yml
+
+
+---
+
+## 📄 Role Components Explained
+
+### ✅ `master.yml`
+- Main entry playbook
+- Calls the `webserver` role
+- Defines hosts and privilege escalation
+
+---
+
+### ✅ `roles/webserver/tasks/main.yml`
+- Contains the core automation logic:
+  - Install/remove Apache
+  - Validate package existence
+  - Start Apache service conditionally
+  - Copy static website files
+
+---
+
+### ✅ `roles/webserver/handlers/main.yml`
+- Handles service restarts
+- Triggered only when changes occur (via `notify`)
+- Prevents unnecessary restarts
+
+---
+
+### ✅ `roles/webserver/files/index.html`
+- Static HTML file
+- Deployed directly to `/var/www/html`
+- Used for website content
+
+---
+
+### ✅ `roles/webserver/vars/main.yml`
+- Defines role-specific variables
+- Example:
+```yaml
+package_name: apache2
+
+
+How to Run the Roles Lab
+1️⃣ Navigate to the playbook directory
+cd playbook
+
+2️⃣ Run the master playbook
+ansible-playbook -i inventory master.yml
+
+What This Lab Demonstrates
+
+Role-based Ansible project structure
+
+Separation of concerns (tasks, handlers, files, vars)
+
+Safe service execution using conditional logic
+
+Reusable and maintainable automation code
+
+Production-aligned DevOps practices
+
+
 ## 📬 Connect With Me
 
 **👤 Name:** Shaik Mohammad Shoaib
