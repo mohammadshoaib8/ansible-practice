@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cool Static Webpage</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Poppins", sans-serif;
+      background: linear-gradient(135deg, #1e1e2f, #3a3a6a);
+      color: #fff;
+      overflow-x: hidden;
+    }
+    header {
+      padding: 20px 40px;
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(10px);
+      position: sticky;
+      top: 0;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      letter-spacing: 2px;
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+    }
+    .hero {
+      height: 80vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 0 20px;
+    }
+    .hero h2 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 1.3rem;
+      max-width: 650px;
+      opacity: 0.8;
+    }
+    .btn {
+      margin-top: 25px;
+      padding: 12px 28px;
+      font-size: 1.2rem;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      color: #fff;
+      background: #6a5acd;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: #7b68ee;
+      transform: scale(1.05);
+    }
+    section {
+      padding: 60px 40px;
+      text-align: center;
+    }
+    .card-container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.08);
+      backdrop-filter: blur(10px);
+      width: 260px;
+      padding: 25px;
+      border-radius: 16px;
+      transition: 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+    }
+    footer {
+      margin-top: 40px;
+      padding: 20px;
+      text-align: center;
+      background: rgba(255, 255, 255, 0.05);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Cool Webpage</h1>
+  </header>
+
+  <div class="hero">
+    <h2>Welcome to the Future</h2>
+    <p>
+      This is a sleek and modern static webpage created just for you. Clean design,
+      glowing effects, and smooth UI — perfect for portfolios, landing pages, or
+      personal projects.
+    </p>
+    <button class="btn">Explore More</button>
+  </div>
+
+  <section>
+    <h2>Awesome Features</h2>
+    <div class="card-container">
+      <div class="card">
+        <h3>⚡ Fast</h3>
+        <p>Lightning‑fast performance with pure HTML and CSS.</p>
+      </div>
+      <div class="card">
+        <h3>🎨 Stylish</h3>
+        <p>Modern gradients, glassmorphism, and smooth animations.</p>
+      </div>
+      <div class="card">
+        <h3>💡 Simple</h3>
+        <p>Clean code you can easily modify and build upon.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Cool Static Webpage | Designed by You 🚀</p>
+  </footer>
+</body>
+</html>

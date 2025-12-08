@@ -1,0 +1,22 @@
+- name: install apache2 webserver
+  apt:
+   name: "{{package_name}}"
+   state: absent
+   update_cache: yes
+- name: gather facts
+  package_facts:
+   manager: auto
+
+- name: starting and enabling the apache2 web server
+  service:
+   name: "{{package_name}}"
+   state: started
+   enabled: yes
+  when: package_name in ansible_facts.packages
+
+- name: copy the custom index.html to webserver apache2
+  copy:
+   src: index.html
+   dest: /var/www/html
+  notify: restarting the apache2 webserver
+  when: package_name in ansible_facts.packages

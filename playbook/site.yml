@@ -1,0 +1,6 @@
+---
+- name: installing according to roles
+  hosts: devwebservers
+  become: true
+  roles:
+   - webserver

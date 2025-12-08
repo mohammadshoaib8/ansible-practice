@@ -1,0 +1,4 @@
+- name: restarting the apache2 webserver
+  service:
+   name: "{{package_name}}"
+   state: restart
