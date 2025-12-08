@@ -212,15 +212,18 @@ Production-aligned DevOps practices
 
 ---
 
+---
+
 ## 📬 Connect With Me
 
-**👤 Name:** Shaik Mohammad Shoaib
-🔗 **LinkedIn:** *https://www.linkedin.com/in/mohammadshoaib8*
-⭐ **GitHub:** *https://github.com/mohammadshoaib8*
+👤 **Name:** Shaik Mohammad Shoaib  
+🔗 **LinkedIn:** [https://www.linkedin.com/in/mohammadshoaib8](https://www.linkedin.com/in/mohammadshoaib8)  
+⭐ **GitHub:** [https://github.com/mohammadshoaib8](https://github.com/mohammadshoaib8)
 
 ---
 
 <p align="center">
-  ⭐ If you like this project, don’t forget to give it a STAR on GitHub!
+  ⭐ If you like this project, don’t forget to give it a <strong>STAR</strong> on GitHub!
 </p>
+
 
