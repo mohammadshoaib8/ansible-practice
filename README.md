@@ -191,24 +191,4 @@ playbook/
 package_name: apache2
 
 
-How to Run the Roles Lab
-1️⃣ Navigate to the playbook directory
-cd playbook
-
-2️⃣ Run the master playbook
-ansible-playbook -i inventory master.yml
-
-What This Lab Demonstrates
-
-Role-based Ansible project structure
-
-Separation of concerns (tasks, handlers, files, vars)
-
-Safe service execution using conditional logic
-
-Reusable and maintainable automation code
-
-Production-aligned DevOps practices
-
----
-
+👤 **Name:** Shaik Mohammad Shoaib 🔗 **LinkedIn:** https://www.linkedin.com/in/mohammadshoaib8 ⭐ **GitHub:** https://github.com/mohammadshoaib8
