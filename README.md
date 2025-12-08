@@ -212,8 +212,6 @@ Production-aligned DevOps practices
 
 ---
 
----
-
 ## 📬 Connect With Me
 
 👤 **Name:** Shaik Mohammad Shoaib  
