@@ -188,6 +188,4 @@ playbook/
 - Defines role-specific variables
 - Example:
 ```yaml
-
-
-👤 **Name:** Shaik Mohammad Shoaib 🔗 **LinkedIn:** https://www.linkedin.com/in/mohammadshoaib8 ⭐ **GitHub:** https://github.com/mohammadshoaib8
+package_name: <packagename>
