@@ -215,8 +215,9 @@ Production-aligned DevOps practices
 ## 📬 Connect With Me
 
 👤 **Name:** Shaik Mohammad Shoaib  
-🔗 **LinkedIn:** https://www.linkedin.com/in/mohammadshoaib8  
-⭐ **GitHub:** https://github.com/mohammadshoaib8  
+🔗 **LinkedIn:** [linkedin.com/in/mohammadshoaib8](https://www.linkedin.com/in/mohammadshoaib8)  
+⭐ **GitHub:** [github.com/mohammadshoaib8](https://github.com/mohammadshoaib8)  
+ 
 
 ---
 
